@@ -1,24 +1,38 @@
 /* ------------- General ------------- */
 html {
     scroll-behavior: smooth;
+    font-family: monospace, sans-serif;
 }
 
 body {
+    background-color: beige;
+    color: darkslategray;
     padding: 0rem;
     margin: 0rem;
-    font-size: 5rem;
 }
 
 section {
-    padding: 3rem;
+    padding: 5rem;
+    height: 50rem;
+    box-sizing: border-box;
+}
+
+.subhead {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.left-half {
+    width: 50%;
 }
 
 /* ------------- Navigation ------------- */
 nav a {
     text-decoration: none;
     color: darkslategrey;
+    margin: 0rem;
     padding: 1rem;
-    box-sizing: border-box;
 }
 
 nav a:hover {
@@ -27,13 +41,9 @@ nav a:hover {
 }
 
 nav {
-    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
     background-color: lightblue;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: right;
-    font-family: sans-serif;
-    font-variant: small-caps;
     font-size: 1.5rem;
     position: fixed;
     top: 0;
@@ -42,10 +52,60 @@ nav {
 
 /* ------------- Home ------------- */
 #home {
-    background-color: beige;
+    background-color: darkslategrey;
+    color: beige;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home h1 {
+    margin: 0rem;
+}
+
+#home img {
+    width: 30rem;
+    border-radius: 15rem;
+}
+
+/* #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+#tagline {
+    font-variant: small-caps;
+    font-size: 2rem;
 }
 
 /* ------------- About ------------- */
 #about {
-    background-color: lightgrey;
+    background-color: beige;
+}
+
+/* ------------- Expertise ------------- */
+#expertise {
+    justify-content: center;
+}
+.logo-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+
+.logo-row img {
+    width: 4.5rem;
+}
+
+/* ------------- Portfolio ------------- */
+#portfolio {
+    background-color: beige;
+}
+
+/* ------------- Contact ------------- */
+#contact {
+    background-color: beige;
 }
