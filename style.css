@@ -1,7 +1,51 @@
-h1 {
-    color: purple;
+/* ------------- General ------------- */
+html {
+    scroll-behavior: smooth;
 }
 
-h2 {
-    color: blue;
+body {
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 5rem;
+}
+
+section {
+    padding: 3rem;
+}
+
+/* ------------- Navigation ------------- */
+nav a {
+    text-decoration: none;
+    color: darkslategrey;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+nav a:hover {
+    background-color: darkslategrey;
+    color: lightblue;
+}
+
+nav {
+    box-sizing: border-box;
+    background-color: lightblue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: right;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* ------------- Home ------------- */
+#home {
+    background-color: beige;
+}
+
+/* ------------- About ------------- */
+#about {
+    background-color: lightgrey;
 }
