@@ -12,16 +12,16 @@ body {
 }
 
 section {
-    padding: 4rem;
-    height: 100vhs;
-    min-height: 45rem;
+    padding: 4vw;
+    height: 100vh;
+    min-height: 40rem;
     box-sizing: border-box;
 }
 
 .subhead {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 2.5rem;
+    font-size: 2.5vw;
+    margin-bottom: 2.5vw;
 }
 
 .left-half {
@@ -55,7 +55,7 @@ nav {
 #home {
     background-color: darkslategrey;
     color: beige;
-    font-size: 5rem;
+    font-size: 5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,13 +66,14 @@ nav {
 }
 
 #home img {
-    width: 30rem;
-    border-radius: 15rem;
+    width: 30vw;
+    border-radius: 15vw;
+    border: beige solid 0.2vw;
 }
 
 #tagline {
     font-variant: small-caps;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 /* ------------- About ------------- */
@@ -102,8 +103,8 @@ nav {
 }
 
 /* ------------- Portfolio ------------- */
-#portfolio {
-    background-color: beige;
+#portfolio img {
+    width: 30vw;
 }
 
 /* ------------- Contact ------------- */
