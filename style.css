@@ -28,6 +28,16 @@ section {
     width: 50%;
 }
 
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row img {
+    width: 4.5rem;
+}
+
 /* ------------- Navigation ------------- */
 nav a {
     text-decoration: none;
@@ -65,10 +75,10 @@ nav {
     margin: 0rem;
 }
 
-#home img {
+#home > img {
     width: 30vw;
     border-radius: 15vw;
-    border: beige solid 0.2vw;
+    border: #f5f5dc solid 0.2vw;
 }
 
 #tagline {
@@ -87,24 +97,42 @@ nav {
     padding-right: 5rem;
 }
 
-/* ------------- Expertise ------------- */
-#expertise {
-    justify-content: center;
+#about a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkslategrey;
 }
-.logo-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+#about a:hover {
+    text-decoration: underline;
+}
+
+/* ------------- Expertise ------------- */
+#expertise .row {
     margin: 1.5rem;
 }
 
-.logo-row img {
-    width: 4.5rem;
+/* ------------- Portfolio ------------- */
+#portfolio {
+    padding-left: 10vw;
+    padding-right: 10vw;
+
 }
 
-/* ------------- Portfolio ------------- */
 #portfolio img {
-    width: 30vw;
+    width: 25vw;
+    height: 30vw;
+    margin: 0vw;
+    padding: 0vw;
+    filter: grayscale(1);
+    object-fit: cover;
+    object-position: 20%;
+    transition: 0.5s;
+}
+
+#portfolio img:hover {
+    filter: grayscale(0);
+    object-position: 0%;
 }
 
 /* ------------- Contact ------------- */
