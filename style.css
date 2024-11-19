@@ -9,6 +9,7 @@ body {
     color: darkslategray;
     padding: 0rem;
     margin: 0rem;
+    justify-content: center;
 }
 
 section {
@@ -113,15 +114,9 @@ nav {
 }
 
 /* ------------- Portfolio ------------- */
-#portfolio {
-    padding-left: 10vw;
-    padding-right: 10vw;
-
-}
-
 #portfolio img {
-    width: 25vw;
-    height: 30vw;
+    width: 20vw;
+    height: 25vw;
     margin: 0vw;
     padding: 0vw;
     filter: grayscale(1);
@@ -133,6 +128,10 @@ nav {
 #portfolio img:hover {
     filter: grayscale(0);
     object-position: 0%;
+}
+
+#portfolio .row {
+    justify-content: center;
 }
 
 /* ------------- Contact ------------- */
